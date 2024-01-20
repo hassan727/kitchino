@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* لماذا يتم احتساب المسافات المتبقيه من الديفات يتم احتسابها الشمال او اليمين فقط؟! */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background: #000;
+    width: 100%;
+    margin:0 auto;
+    padding:10px 100px;
+    
+    
+}
+.header{
+    display: flex;
+    
+    align-items: center; 
+    width: 30%;
+    
+}
+
+.fa-regular{
+    font-size: 30px;
+    width: 35px;
+    color:#fff ;
+    
+}
+
+
+
+.header .text p{
+color: #11b555;
+letter-spacing: 1px;
+justify-content: flex-start;
+}
+
+.header .text h5{
+color: #fff; 
+letter-spacing:1px;
+}
+
+.logo{
+width: 20%;
+
+}
+
+.logo img{
+    width:60%;
+    background-position:center;
+background-size: cover;
+
+}
+.customer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: fit-content;
+    
+    
+}
+
+.customer-service p{
+    color: #11b555;
+    letter-spacing: 1px;
+}
+
+.customer-service h4{
+    color: #fff;
+}
+
+.customer .house{
+    font-size: 30px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.prother-nav{
+    width: 90%;
+    background: #181918;
+    height: 10vh;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px 5px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.prother-nav .son-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.prother-nav .son-nav li{
+    list-style: none;
+}
+
+.prother-nav .son-nav li a{
+    color: #11b555;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.prother-nav .son-nav li a:hover{
+    color:#fff
+
+}
+
+.main-content{
+    min-height:100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+
+.main-content .bg-img{
+    min-height:100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url(/b-ground/391582623_718619076969033_2836712030532430262_n.png);
+
+    background-size: 100% 100%; 
+    position: absolute;
+    z-index: 1;
+}
+
+.main-content .text{
+    position: absolute;
+    bottom: 150px;
+    z-index: 2;
+    color: #fff; 
+}
+
+.main-content .text h1{
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    align-items:center ;
+    justify-content:space-between;
+    margin: 30px auto;
+    min-height: 70vh;
+    background: #fff;
+    border-radius: 10px;
+    
+}
+
+.container .image{
+    width: 40%;
+    height: 50vh;
+
+}
+
+.container .image img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.text-introduction{
+    width:40%; 
+}
+
+.text-introduction .p1 h3{
+    font-weight: 400px;
+    margin-bottom: 10px;
+    color: #11b555;
+}
+.text-introduction .p1 p{
+    color: #000;
+    font-weight: 400;
+}
+
+.text-introduction .p2 h3{
+    color:#11b555;
+    margin-top: 10px;
+    font-weight: 400px;
+    
+}
+.text-introduction .p2 p{
+    color: #000;
+    margin-top: 5px;
+    font-weight: 400;
+}
+.container .bottom{
+    margin-top: 10px;
+    background-color: #11b555;
+    width: fit-content;
+    border-radius: 5px;
+    
+    
+}
+
+.container .bottom a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+
+.our-works{
+    text-align: center;
+    background: #11b555;
+}
+
+.our-works h1{
+    color: #fff;
+    font-weight:bolder;
+}
+
+
+
+.section-works{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.section-works .img-works{
+    width: 25%;
+    text-align: center;
+    margin: 10px 0;
+    
+}
+.section-works .img-works img{
+    width: 80%;
+    height: 40vh;
+    border-radius: 8px;
+    
+}
+.section-works .img-works img:hover{
+    transform: scale(1.1);
+    transition: 0.5;
+}
+
+
+
+.text1{
+    text-align: center;
+    margin-bottom: 60px;
+    
+    
+    
+}
+
+.text1 h1{
+    color: #fff;
+    background: #11b555;
+    
+}
+
+
+.container2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background: #fff;
+    margin-top: 0px;
+    min-height: 50vh;
+    background-image: linear-gradient(#11b555,#fff);
+
+}
+
+.container2 .text2{
+    border: #fff 2px solid;
+    text-align: center;
+    width: 25%;
+    border: none;
+}
+
+
+.container2 .text2 h3{
+    color: #000;
+    margin-top: 20px;  
+}
+
+.container2 .text2 h2{
+    color:#11b555;
+    margin-top: 5px;
+}
+.contact-us{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url(/visitors/FB_IMG_1698004800984.jpg);
+    background-repeat: no-repeat;
+background-position:center;
+background-size: 100% 100%;
+}
+
+
+
+
